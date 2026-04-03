@@ -1,0 +1,33 @@
+:root {
+  --content-height: calc(100vh - 64px - 67px);
+  --app-bg: #eef3ef;
+  --panel-bg: rgba(255, 255, 255, 0.86);
+  --panel-border: rgba(32, 62, 54, 0.12);
+  --brand-900: #123c33;
+  --brand-700: #28594e;
+  --brand-500: #4d8a79;
+  --brand-300: #b8d3c8;
+  --accent: #f2a65a;
+  --text-main: #102521;
+  --text-secondary: #4e655e;
+  --shadow-soft: 0 24px 60px rgba(20, 55, 48, 0.12);
+}
+
+body {
+  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text-main);
+  background:
+    radial-gradient(circle at top left, rgba(242, 166, 90, 0.18), transparent 28%),
+    radial-gradient(circle at right 15%, rgba(77, 138, 121, 0.16), transparent 24%),
+    linear-gradient(180deg, #f7faf7 0%, #edf3ee 52%, #e7efe8 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

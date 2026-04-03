@@ -1,0 +1,50 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249 250 251);
+  padding: 1rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .card {
+    max-width: 320px;
+  }
+
+  .button {
+    min-width: 90px;
+    height: 32px;
+    margin: 4px;
+  }
+}
+@media (min-width: 641px) and (max-width: 1024px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .card {
+    max-width: 360px;
+  }
+}
+@media (min-width: 1025px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .card {
+    max-width: 400px;
+  }
+}

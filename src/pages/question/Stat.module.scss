@@ -1,0 +1,80 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  .header {
+    height: 5%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    .urlBorder {
+      width: 400px;
+      height: 30px;
+      border: 1px solid #d9d9d9;
+      border-radius: 2px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      box-sizing: border-box;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      div {
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+    .iconBorder {
+      width: 29px;
+      height: 29px;
+      border: 1px solid #d9d9d9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 2px;
+      cursor: pointer;
+      transition: all 0.3s;
+      &:hover {
+        border: 1px solid #4096ff;
+        color: #4096ff;
+      }
+    }
+  }
+  .content {
+    position: absolute;
+    top: 6%;
+    left: 0;
+    bottom: 10px;
+    right: 0;
+    display: flex;
+    gap: 10px;
+    --pabelWidth: 330px;
+
+    .left {
+      width: var(--pabelWidth);
+      height: 100%;
+      background-color: white;
+      overflow: hidden;
+    }
+    .tableWapper {
+      flex: 1;
+
+      height: 100%;
+      background-color: white;
+      padding: 15px;
+      box-sizing: border-box;
+    }
+    .right {
+      width: 450px;
+      height: 100%;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

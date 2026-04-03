@@ -1,0 +1,22 @@
+.wrapper {
+  margin-bottom: 12px;
+  cursor: pointer;
+  background: linear-gradient(180deg, #ffffff 0%, #f7faf8 100%);
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid rgba(18, 60, 51, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(18, 60, 51, 0.04);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+  &:hover {
+    border: 1px solid rgba(77, 138, 121, 0.32);
+    box-shadow: 0 16px 32px rgba(18, 60, 51, 0.08);
+    transform: translateY(-1px);
+  }
+  .component {
+    pointer-events: none;
+  }
+}

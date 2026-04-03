@@ -1,0 +1,27 @@
+.canvas {
+  height: 100%;
+  overflow: auto;
+
+  .wrapper {
+    margin: 12px;
+    border: 1px solid #fff;
+    padding: 12px;
+    border-radius: 3px;
+    &:hover {
+      border: 1px solid #d9d9d9;
+    }
+  }
+}
+
+.pointer-events {
+  pointer-events: none;
+}
+
+.selected {
+  border: 1px solid #1890ff !important;
+}
+
+.locked {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

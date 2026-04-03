@@ -1,0 +1,64 @@
+.headerLayout {
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 16px;
+}
+
+.headerSide {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+}
+
+.headerCenter {
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+.headerActions {
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.successIcon {
+  width: 20px;
+  height: 20px;
+  color: white;
+  border-radius: 50%;
+  background-color: #52c41a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.toolbarWrap {
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(18, 60, 51, 0.08);
+  box-shadow: 0 14px 28px rgba(18, 60, 51, 0.08);
+  backdrop-filter: blur(14px);
+}
+
+@media (max-width: 1440px) {
+  .headerLayout {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    padding: 14px 0;
+  }
+
+  .headerSide,
+  .headerActions {
+    width: 100%;
+  }
+
+  .headerActions {
+    justify-content: center;
+  }
+}
