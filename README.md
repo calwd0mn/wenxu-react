@@ -10,15 +10,15 @@
 - `service`：旧版 mock / legacy 服务代码
 
 ## 页面示例
-<img width="2560" height="1398" alt="image" src="https://github.com/user-attachments/assets/43398f8e-b3fc-4baa-a73b-3a6cd7ff987e" />
+<img width="1882" height="1709" alt="image" src="https://github.com/user-attachments/assets/d7003f98-0d92-442b-b3d0-39ab98736805" />
 
-<img width="3840" height="1958" alt="image" src="https://github.com/user-attachments/assets/8cf78602-dfdf-4e13-8ffc-6cface5e96a4" />
+<img width="1882" height="1709" alt="image" src="https://github.com/user-attachments/assets/818aa262-7ca0-4d5b-80a7-ae7ae460cdde" />
 
-<img width="2560" height="1398" alt="image" src="https://github.com/user-attachments/assets/da4216d5-5d6f-4679-bd22-6805314a5529" />
+<img width="1905" height="1707" alt="image" src="https://github.com/user-attachments/assets/5e8d6d8a-0a9b-47d9-8f55-03421f43284f" />
 
-<img width="2560" height="1398" alt="image" src="https://github.com/user-attachments/assets/c100b6e2-ec7f-421c-a56a-d90ebac9aeec" />
+<img width="1905" height="1707" alt="image" src="https://github.com/user-attachments/assets/a000d993-7524-4e11-8f68-2561121df0ef" />
 
-<img width="2560" height="1398" alt="image" src="https://github.com/user-attachments/assets/a162abd9-5646-4b38-97ef-fb9e5a518301" />
+<img width="1905" height="1206" alt="image" src="https://github.com/user-attachments/assets/407a9626-fc82-45fd-a72e-f39df4221843" />
 
 
 ## 当前能力
