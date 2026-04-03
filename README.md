@@ -9,6 +9,18 @@
 - `nest-service`：NestJS 后端 API
 - `service`：旧版 mock / legacy 服务代码
 
+## 页面示例
+<img width="2560" height="1398" alt="image" src="https://github.com/user-attachments/assets/43398f8e-b3fc-4baa-a73b-3a6cd7ff987e" />
+
+<img width="3840" height="1958" alt="image" src="https://github.com/user-attachments/assets/8cf78602-dfdf-4e13-8ffc-6cface5e96a4" />
+
+<img width="2560" height="1398" alt="image" src="https://github.com/user-attachments/assets/da4216d5-5d6f-4679-bd22-6805314a5529" />
+
+<img width="2560" height="1398" alt="image" src="https://github.com/user-attachments/assets/c100b6e2-ec7f-421c-a56a-d90ebac9aeec" />
+
+<img width="2560" height="1398" alt="image" src="https://github.com/user-attachments/assets/a162abd9-5646-4b38-97ef-fb9e5a518301" />
+
+
 ## 当前能力
 
 - 问卷创建、编辑、删除、标星、发布
